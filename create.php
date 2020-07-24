@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>PHP CRUD  |  Add User</title>
-
+   <title>Big Library</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
    <style type= "text/css">
        fieldset {
            margin: auto;
@@ -13,16 +13,32 @@
        table tr th  {
            padding-top: 20px;
        }
+
+       .jumbotron {
+            background-image: url("images/BL.jpg");
+            background-size: cover;
+            height: 30vw;
+       }
+
+       body{
+           background-color: lightgrey;
+       }
+
    </style>
 
 </head>
 <body>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  </div>
+</div>
+
 
 <fieldset >
-   <legend>Add Library</legend>
+   <legend>Add Media</legend>
 
    <form  action="actions/a_create.php" method= "post">
-       <table cellspacing= "0" cellpadding="0">
+       <table class="table table-dark" cellspacing= "0" cellpadding="0">
            <tr>
                <th>Teaser</th >
                <td><input  type="text" name="Teaser"  placeholder="Teaser" /></td >
@@ -54,8 +70,8 @@
  
 
            <tr>
-               <td><button type ="submit">Insert user</button></td>
-               <td ><a href= "index.php"><button  type="button">Back</button></a></td>
+               <td><button type="button" class="btn btn-success" type ="submit">Insert media</button></td>
+               <td ><a href= "index.php"><button  type="button" class="btn btn-success">Back</button></a></td>
            </tr >
        </table>
    </form>
