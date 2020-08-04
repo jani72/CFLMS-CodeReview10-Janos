@@ -100,7 +100,7 @@ if(isset($_GET['id'])) {
 
            <tr>
               
-               <td><button type="button" class="btn btn-success" type= "submit">Save Changes</button ></td>
+               <td><button class="btn btn-success" type= "submit">Save Changes</button ></td>
                <td><a  href= "index.php"><button  type="button" class="btn btn-success" >Back</button ></a ></td >
            </tr>
        </table>

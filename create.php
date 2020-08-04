@@ -82,7 +82,7 @@
  
 
            <tr>
-               <td><button type="button" class="btn btn-success" type ="submit">Insert media</button></td>
+               <td><button type="submit" class="btn btn-success">Insert media</button></td>
                <td ><a href= "index.php"><button  type="button" class="btn btn-success">Back</button></a></td>
            </tr >
        </table>

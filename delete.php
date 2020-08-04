@@ -50,7 +50,7 @@ if  (isset($_GET['id'])) {
 <form action ="actions/a_delete.php" method="post">
 
    <input type="hidden" name= "id" value="<?php echo $data['ISBN'] ?>" />
-   <button type="button" class="btn btn-success" type="submit">Yes, delete it!</button >
+   <button class="btn btn-success" type="submit">Yes, delete it!</button >
    <a href="index.php"><button type="button"class="btn btn-success">No, go back!</button ></a>
 </form>
 
